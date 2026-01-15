@@ -4,9 +4,9 @@ Script criado a fim de automatizar a conversão dos arquivos presentes no contê
 
 # Uso
 
-Digite filename do script sem passar quaisquer argumentos, e será exibido uma pequena ajuda.
+Digite o filename do script sem passar quaisquer argumentos, e será exibido uma pequena ajuda.
 
-Além disso, deixe os arquivo do diretório "Wisi tools" no mesmo nível do script.
+Além disso, deixe os arquivos do diretório "Wisi tools" no mesmo nível do script.
 
 # Créditos
 
