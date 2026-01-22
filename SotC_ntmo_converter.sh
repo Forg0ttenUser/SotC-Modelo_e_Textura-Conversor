@@ -3,7 +3,7 @@
 if [[ $# -eq 0 ]]; then
 
 	echo -e "\nUso:
-	./SotC_ntmo_converter.sh [path/NICO.DAT_DIR] [ 1 | 2 ]
+	./SotC_ntmo_converter.sh [ 1 | 2 ] [path/NICO.DAT_DIR]
 	
 Parâmetros:
 	1º -> Caminho do diretório NICO.DAT
