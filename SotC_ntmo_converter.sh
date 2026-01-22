@@ -6,10 +6,10 @@ if [[ $# -eq 0 ]]; then
 	./SotC_ntmo_converter.sh [ 1 | 2 ] [path/NICO.DAT_DIR]
 	
 Parâmetros:
-	1º -> Caminho do diretório NICO.DAT
-	2º -> Uma das opções do seguinte set {1,2}:
+	1º -> Uma das opções do seguinte set {1,2}:
 		1 -> Converte todas as texturas nto para png.
 		2 -> Converte todos os modelos nmo para lwo.
+	2º -> Caminho do diretório NICO.DAT
 "
 
 elif [[ $# -eq 2 ]]; then
