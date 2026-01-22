@@ -24,7 +24,6 @@ elif [[ $# -eq 2 ]]; then
 			echo -e "\nConversão Finalizada. Liste o diretório corrente para encontrar seus arquivos.\n"
 		else 
 			find $2 -name *.nmo > lista_nmo.txt; mkdir Modelos
-			cat lista_nmo.txt
 			for line in $(cat lista_nmo.txt); do
 				wine nmo2lwo.exe -i $line  -o ./Modelos/$(basename -s .nmo $line)
 			done
